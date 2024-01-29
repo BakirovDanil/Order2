@@ -28,9 +28,9 @@ weights = [1 for i in range(n_sensor)] # зададим веса каждого 
 # создание объекта класса Neuron
 neuron = Neuron(weights, n_sensor, porog)
 
-print("Узнал 6 - 1? ", neuron.proverka(num61)) # вызов функции
-print("Узнал 6 - 2? ", neuron.proverka(num62))
-print("Узнал 6 - 3? ", neuron.proverka(num63))
-print("Узнал 6 - 4? ", neuron.proverka(num64))
-print("Узнал 6 - 5? ", neuron.proverka(num65))
+print("Узнал 6 - 1? ", neuron.proverka(num1)) # вызов функции
+print("Узнал 6 - 2? ", neuron.proverka(num2))
+print("Узнал 6 - 3? ", neuron.proverka(num3))
+print("Узнал 6 - 4? ", neuron.proverka(num4))
+print("Узнал 6 - 5? ", neuron.proverka(num5))
 print("Узнал 6 - 6? ", neuron.proverka(num66))
